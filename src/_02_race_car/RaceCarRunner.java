@@ -13,11 +13,11 @@ public class RaceCarRunner {
 		// 1. Create a RaceCar and place it in 5th position
 	 RaceCar car1 = new RaceCar("Ford",5);
 		// 2. Print the RaceCar's position in the race
-
+	 System.out.println(car1.getPositionInRace());
 		// 3. Crash the RaceCar
-		
+		car1.crash();
 		// 4. If the car is damaged. Bring it in for a pit stop.
-
+if (car1 == damaged()) {car1.pit();}
 		// 5. Help the car move into first place.
 
 	}
