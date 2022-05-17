@@ -6,10 +6,11 @@ public class VaultRunner {
 		// TODO Auto-generated method stub
 
 		Vault vault = new Vault();
-	System.out.println(vault.tryCode(1));
+		Vault vault2 = new Vault();
+	SecretAgent secretAgent = new SecretAgent();
+	System.out.println(secretAgent.findCode(vault));
+	System.out.println(secretAgent.findCode(vault2));
 	
-		
-		
 		
 		
 	}
